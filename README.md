@@ -43,7 +43,10 @@ Creating a VPC Steps: <br/> 1. Select VPC and more <br/>
 		3. Choose IPv4 CIDR block, preferably a 16 range <br/>
 		4. Number of Availability Zones (AZs): Select 1 <br/>
 		5. Number of public subnets & Number of private subnets: Select 1 <br/>
-		6. Add public & private IP ranges: 0.0.1.0/24 & 0.0.11.0/24 <br/>
+		6. Add public & private IP ranges: 172.19.1.0/24 & 172.19.11.0/24 <br/>
+  <br/>
+  I have allocated the IPv4 CIDR block 172.19.0.0/16 to establish a substantial and adaptable private address space for my Virtual Private Cloud (VPC). This allocation permits the use of up to 65,536 IP addresses, facilitating potential future growth while supporting multiple subnets and services. For the public and private subnets, I have designated 172.19.1.0/24 and 172.19.11.0/24, respectively, which allows for the logical partitioning of 256 IP addresses within that framework. This configuration is specifically intended for resources that require internet access, thereby ensuring clear separation and manageable organization within the broader VPC environment. Additionally, I acknowledge that 172.16.0.0 falls within the Private Address Space, as defined by RFC 1918; however, this project was initiated to restrict access privately. <br/>
+  <br/>
 		7. Click Create VPC
 <br/>
 <img src="https://i.imgur.com/HJq3yls.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
