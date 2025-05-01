@@ -195,7 +195,8 @@ b) Copy Public IPv4 DNS into a browser in the following manner http://<your_serv
 <img src="https://i.imgur.com/Levnl8k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-3) Copy the password form the Linux output and paste it within the Administrator password location then click Continue
+3) Copy the password form the Linux output and paste it within the Administrator password location then click continue<br />
+<br />
 <img src="https://i.imgur.com/uDQH5JW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <img src="https://i.imgur.com/b9abSNc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
