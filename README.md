@@ -84,7 +84,7 @@ Creating an Amazon EC2 instance:Launching an Amazon EC2 instance provides scalab
 <br />
 Create an Amazon EC2 instance Steps: <br />
 		1. Enter name in alignment with your project (name_ec2) <br />
-		2. Make sure the Amazon Machine Image (AMI) you choose is Amazon Linux 2023 AMI 
+		2. Make sure the Amazon Machine Image (AMI) you choose is Amazon Linux 2023 AMI (When utilizing Terraform, it is essential to ensure that the appropriate IAM image is selected, as these images differ by region)  
 <br/>
 <img src="https://i.imgur.com/CJCKV0J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
